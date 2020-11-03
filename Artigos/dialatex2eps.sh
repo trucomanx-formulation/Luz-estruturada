@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-FILENAME=( "Diagrama1" "Diagrama2" "Diagrama3" "Diagrama4" "Diagrama5" "Diagrama6")
+FILENAME=( "Diagrama1" "Diagrama2" "Diagrama3" "Diagrama4" "Diagrama5" "Diagrama6" "Diagrama7")
 
 for i in ${FILENAME[@]}; 
 do  

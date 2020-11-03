@@ -12,6 +12,12 @@ pdflatex -synctex=1 -interaction=nonstopmode  sectio3.tex
 pdflatex -synctex=1 -interaction=nonstopmode  sectio3.tex
 
 
+pdflatex -synctex=1 -interaction=nonstopmode  sectio4.tex
+pdflatex -synctex=1 -interaction=nonstopmode  sectio4.tex
+bibtex sectio4
+pdflatex -synctex=1 -interaction=nonstopmode  sectio4.tex
+pdflatex -synctex=1 -interaction=nonstopmode  sectio4.tex
+
 rm -f sectio*.aux  
 rm -f sectio*.log  
 rm -f sectio*.synctex.gz 
